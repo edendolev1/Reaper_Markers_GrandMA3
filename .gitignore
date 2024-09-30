@@ -1,0 +1,21 @@
+# Virtual environment folder
+venv/
+.env/
+
+# Byte-compiled Python files
+*.pyc
+__pycache__/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ignore generated XML files if not needed
+*.xml
+
+# Ignore macOS specific files
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+.idea/
