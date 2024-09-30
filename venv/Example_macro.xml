@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<GMA3 DataVersion="1.4.0.2">
+    <Macro Name="Macro CLOSETOYOU_macro" Guid="4F 9F A0 35 AD 33 48 51 B4 36 3D B9 E7 7B DB 47">
+        <MacroLine Command="Store Sequence 4 Cue 1 thru 5" Wait="0.10"/>
+        <MacroLine Command="Label Sequence 4 Cue 1 &quot;Song Begin&quot;" Wait="0.10"/>
+        <MacroLine Command="Label Sequence 4 Cue 2 &quot;EH&quot;" Wait="0.10"/>
+        <MacroLine Command="Label Sequence 4 Cue 3 &quot;YEAH&quot;" Wait="0.10"/>
+        <MacroLine Command="Label Sequence 4 Cue 4 &quot;SOF PSANTER&quot;" Wait="0.10"/>
+        <MacroLine Command="Label Sequence 4 Cue 5 &quot;BIRDS&quot;" Wait="0.10"/>
+    </Macro>
+</GMA3>

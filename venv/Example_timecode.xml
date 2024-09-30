@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GMA3 DataVersion="1.4.0.2">
+    <Timecode Name="CLOSETOYOU_timecode" Guid="10 A3 B3 5D 8D 0F 4E 50 99 AC 91 75 48 3D 6E B7" Duration="12.303" LoopCount="0" TCSlot="0" AutoStop="No" SwitchOff="Keep Playbacks" TimeDisplayFormat="Default" FrameReadout="Default">
+        <TrackGroup Play="" Rec="">
+            <MarkerTrack Name="Marker" Guid="10 A3 B3 5D 8D 0F 4E 50 99 AC 91 75 48 3D 6E B7"/>
+            <Track Guid="10 A3 B3 5D 8D 0F 4E 50 99 AC 91 75 48 3D 6E B7" Target="ShowData.DataPools.Default.Sequences.3" Play="" Rec="">
+                <TimeRange Guid="10 A3 B3 5D 8D 0F 4E 50 99 AC 91 75 48 3D 6E B7" Duration="To End" Play="" Rec="">
+                    <CmdSubTrack>
+                        <CmdEvent Name="Goto" Time="1.064" CueDestination="Song Begin">
+                            <RealtimeCmd Type="Key" Source="Original" UserProfile="0" User="1" Status="On" IsRealtime="0" IsXFade="0" IgnoreFollow="0" IgnoreCommand="0" Assert="0" IgnoreNetwork="0" FromTriggerNode="0" IgnoreExecTime="0" IssuedByTimecode="0" FromLocalHardwareFader="1" IgnoreExecXFade="0" IsExecXFade="0" Object="12.12.0.5.3" ExecToken="Goto" ValCueDestination="12.12.0.5.3.1000"/>
+                        </CmdEvent>
+                        <CmdEvent Name="Goto" Time="3.000" CueDestination="EH">
+                            <RealtimeCmd Type="Key" Source="Original" UserProfile="0" User="1" Status="On" IsRealtime="0" IsXFade="0" IgnoreFollow="0" IgnoreCommand="0" Assert="0" IgnoreNetwork="0" FromTriggerNode="0" IgnoreExecTime="0" IssuedByTimecode="0" FromLocalHardwareFader="1" IgnoreExecXFade="0" IsExecXFade="0" Object="12.12.0.5.3" ExecToken="Goto" ValCueDestination="12.12.0.5.3.2000"/>
+                        </CmdEvent>
+                        <CmdEvent Name="Goto" Time="5.000" CueDestination="YEAH">
+                            <RealtimeCmd Type="Key" Source="Original" UserProfile="0" User="1" Status="On" IsRealtime="0" IsXFade="0" IgnoreFollow="0" IgnoreCommand="0" Assert="0" IgnoreNetwork="0" FromTriggerNode="0" IgnoreExecTime="0" IssuedByTimecode="0" FromLocalHardwareFader="1" IgnoreExecXFade="0" IsExecXFade="0" Object="12.12.0.5.3" ExecToken="Goto" ValCueDestination="12.12.0.5.3.3000"/>
+                        </CmdEvent>
+                        <CmdEvent Name="Goto" Time="8.528" CueDestination="SOF PSANTER">
+                            <RealtimeCmd Type="Key" Source="Original" UserProfile="0" User="1" Status="On" IsRealtime="0" IsXFade="0" IgnoreFollow="0" IgnoreCommand="0" Assert="0" IgnoreNetwork="0" FromTriggerNode="0" IgnoreExecTime="0" IssuedByTimecode="0" FromLocalHardwareFader="1" IgnoreExecXFade="0" IsExecXFade="0" Object="12.12.0.5.3" ExecToken="Goto" ValCueDestination="12.12.0.5.3.4000"/>
+                        </CmdEvent>
+                        <CmdEvent Name="Goto" Time="11.303" CueDestination="BIRDS">
+                            <RealtimeCmd Type="Key" Source="Original" UserProfile="0" User="1" Status="On" IsRealtime="0" IsXFade="0" IgnoreFollow="0" IgnoreCommand="0" Assert="0" IgnoreNetwork="0" FromTriggerNode="0" IgnoreExecTime="0" IssuedByTimecode="0" FromLocalHardwareFader="1" IgnoreExecXFade="0" IsExecXFade="0" Object="12.12.0.5.3" ExecToken="Goto" ValCueDestination="12.12.0.5.3.5000"/>
+                        </CmdEvent>
+                    </CmdSubTrack>
+                </TimeRange>
+            </Track>
+        </TrackGroup>
+    </Timecode>
+</GMA3>
