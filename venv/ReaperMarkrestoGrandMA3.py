@@ -57,7 +57,7 @@ def create_ma3_timecode_xml(markers, sequence_number, output_filename):
     track = ET.SubElement(
         track_group, "Track",
         Guid=track_guid,
-        Target=f"ShowData.DataPools.Default.Sequences.{sequence_number-1}",
+        Target=f"ShowData.DataPools.Default.Sequences.{sequence_number}",
         Play="",
         Rec=""
     )
