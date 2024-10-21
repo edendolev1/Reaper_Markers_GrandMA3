@@ -1,20 +1,39 @@
-Hi, so following https://www.youtube.com/watch?v=Gu_CuGmEe3A&t=556s&ab_channel=fiets.de tutorial led to an issue using GrandMA3 2.0.0.2
-So I created a python code that generates two files:
-1. a macro file
-2. a timecode file
+# Reaper Markers to GrandMA3 Timecode & Macro Generator
 
-How to make it work?
-(I am a Mac user but the diffrences are not big)
-1. After creating the markers on the Reaper software and exporting them, you will find an csv file
-2. When running the python code you will be asked to enter the path of that file
-3. You will be asked where do you want the export to happen - you can chose the same folder by Y
-or chosing another folder by entering N and then the desired path name
-4. Puth the files in the correct location - /Users/USERNAME/MALightingTechnology/gma3_library/datapools/macros/ for the macro file
-   and /Users/USERNAME/MALightingTechnology/gma3_library/datapools/timecodes/ for the timecode file 
-4. after you have the two files in those location - you will need to import them on the GrandMA3 software:
-   a. go to Menu->Show Creator->Import->Macros and then chose the correct macro
-   b. go to Menu->Show Creator->Import->Timecodes and then chose the correct timecode
-5. then press the macro - that will generate the new sequence 
+Hi! After following this [YouTube tutorial](https://www.youtube.com/watch?v=Gu_CuGmEe3A&t=556s&ab_channel=fiets.de), I encountered an issue using GrandMA3 version 2.0.0.2. To solve this, I created a Python script that generates two files:
+1. A macro file
+2. A timecode file
 
-for further steps on how to sync Reaper and Grandma3 I recommend watching:
-https://www.youtube.com/watch?v=vcQuV80J9UU&t=184s&ab_channel=JSDennison
+## How to Make It Work
+
+> *Note: I am a Mac user, but the differences for other operating systems are minimal.*
+
+### Steps:
+
+1. **Create Markers in Reaper and Export as CSV**  
+   After creating markers on the Reaper software and exporting them, you will obtain a `.csv` file.
+
+2. **Run the Python Code**  
+   When running the Python script, you will be prompted to enter the path of the `.csv` file.
+
+3. **Choose Export Location**  
+   You will be asked where to export the files:
+   - Choose the same folder by typing `Y`
+   - Choose a different folder by typing `N`, then enter the desired path
+
+4. **Place the Files in the Correct Location**  
+   - Put the macro file in:  
+     `/Users/USERNAME/MALightingTechnology/gma3_library/datapools/macros/`
+   - Put the timecode file in:  
+     `/Users/USERNAME/MALightingTechnology/gma3_library/datapools/timecodes/`
+
+5. **Import the Files into GrandMA3**  
+   - Go to **Menu -> Show Creator -> Import -> Macros**, and choose the correct macro.
+   - Go to **Menu -> Show Creator -> Import -> Timecodes**, and choose the correct timecode.
+
+6. **Generate the New Sequence**  
+   Press the macro to generate the new sequence.
+
+### Further Steps
+
+For additional steps on how to sync Reaper and GrandMA3, I recommend watching this [YouTube tutorial](https://www.youtube.com/watch?v=vcQuV80J9UU&t=184s&ab_channel=JSDennison).
